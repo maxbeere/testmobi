@@ -16,7 +16,7 @@ public class Animal {
     Animal(String nameAnimal, Context context) {
         this.nameAnimal = nameAnimal;
         this.context = context;
-        img = R.drawable.img1;
+        img = R.drawable.druzhok;
         about = context.getResources().getString(R.string.aboutDefault);
         findAnimal();
     }

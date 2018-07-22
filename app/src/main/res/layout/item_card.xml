@@ -5,20 +5,21 @@
                                     xmlns:tools="http://schemas.android.com/tools"
                                     android:id="@+id/card"
                                     android:layout_width="match_parent"
-                                    android:layout_height="80dp"
-                                    android:layout_marginBottom="1dp"
-                                    card_view:cardBackgroundColor="@android:color/transparent">
+                                    android:layout_height="70dp"
+                                    android:layout_marginBottom="5dp"
+                                    card_view:cardBackgroundColor="@android:color/transparent"
+                                    android:foreground="?android:attr/selectableItemBackground">
 
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:textColor="@color/colorText"
-        android:textSize="14sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="16sp"
         tools:text="Title"/>
 
 
